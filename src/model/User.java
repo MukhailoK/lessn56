@@ -5,9 +5,9 @@ import java.time.temporal.ChronoUnit;
 import java.util.Objects;
 
 public class User {
-    int id;
-    String name;
-    LocalDate birthDay;
+   private int id;
+   private String name;
+   private LocalDate birthDay;
 
     public User(int id, String name, LocalDate birthDay) {
         this.id = id;
