@@ -28,9 +28,7 @@ public class UserAppl {
         List<User> usersList = userInterface.
                 findByAge(LocalDate.now().minusYears(30)
                         , LocalDate.now().minusYears(19));
-        for (User user: usersList){
-            System.out.println(user);
-        }
+        usersList.forEach(System.out::println);
 
     }
 }
